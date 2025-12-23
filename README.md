@@ -1,5 +1,7 @@
 # Energy AI Governance
 
+A governance‑first AI engineering project focused on energy systems, built with reproducible workflows, clean architecture, and transparent data practices. This repository establishes a disciplined foundation for data pipelines, model development, and responsible AI tooling in the energy domain.
+
 ## Overview
 This repository documents my transition from energy systems engineering into applied AI and data engineering, with a focus on governance-first design.
 
@@ -31,6 +33,16 @@ Planned components include:
 
 ---
 
+## Tech Stack
+- Python 3.11
+- pandas, NumPy
+- scikit-learn
+- matplotlib, seaborn
+- Jupyter (for controlled experimentation)
+- Git + virtual environments for reproducibility
+
+---
+
 ## Project Structure
 energy-ai-governance/
 ├── data/ # Raw and processed datasets (not committed)
@@ -47,6 +59,18 @@ energy-ai-governance/
 - Versioned dependencies
 - Clean commit history
 - Governance before optimization
+  
+---
+
+## Reproducibility
+This project is designed to be fully reproducible:
+
+- All dependencies are version-pinned
+- A dedicated virtual environment is required
+- Data sources and transformations are explicitly documented
+- Code and experiments are structured to be rerun end-to-end
+
+No results are accepted unless they can be reproduced from a clean environment.
 
 ---
 
